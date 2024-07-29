@@ -1,0 +1,294 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilização da barra de navegação*/
+header{
+    margin-bottom: 30px;
+}
+#nome-icon{
+    display: flex;
+    justify-content: center;
+}
+
+/*estilização div main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*estilização banner pagina principal*/
+#banner-main{
+    width: 90vw;
+    border-radius: 20px;
+}
+#card-main, #card-blog{
+    margin: 0;
+    padding: 0;
+    background-color: #9aa562;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    border-radius: 20px;
+}
+#card-main>img, #card-blog>img{
+    height: 50vh;
+    width: 600px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#card-main>h2, .titulo-card{
+    margin: 20px;
+    color: #fefae0;
+}
+/*estilização categorias*/
+.categorias{
+    margin: 50px;
+
+}
+.rol-categorias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.icone-categoria{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.icone-categoria>h3 {
+    color: #87963e;
+    font-size: x-large;
+}
+.icone-categoria>img{
+    border-radius: 100%;
+    height: 120px;
+    width: 120px;
+}
+
+/*estilização do carrossel de receitas*/
+.itens{
+    display: flex;
+    flex-direction: row;
+}
+
+.itens>.card{
+    height: 450px;
+}
+
+.itens>.card>img{
+    height: 200px;
+}
+.itens>.card>.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.itens>.card>.card-body>.card-text{
+    text-align: center;
+}
+
+.itens>.card>.card-body>a{
+    background-color: #87963e;
+    border-color: #87963e;;
+}
+.itens>.card>.card-body>a:hover{
+    background-color: #5c6918;
+}
+#carouselExampleControls{
+    margin-bottom: 50px;
+}
+
+/*estilização de novidades*/
+.new{
+    width: 65vw;
+    margin: 50px;
+}
+
+.new-descricao{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    /**/
+}
+
+.new-descricao>img{
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.new-descricao>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    width: 30vw;
+}
+
+.new>h3, .new-descricao>div>h3{
+    color: #87963e;
+}
+
+.new-descricao>div>a{
+    background-color: #87963e;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+.new-descricao>div>a:hover{
+    background-color: #5c6918;
+}
+
+/*estilização pagina de receitas*/
+.receitas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80vw;
+    justify-content: center;
+    padding: 10px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo>.card{
+    width: 80vw;
+}
+
+.h1-receitas{
+    text-align: center;
+    color: #5c6918;
+}
+
+.card{
+    margin: 5px;
+}
+
+.card-body{
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+#card-m{
+    background-image: url(https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.preparo{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    width: 80vw;
+    flex-wrap: wrap;
+}
+
+.igredientes{
+    margin-right: 20px;
+}
+
+.modo-preparo{
+    margin-left: 20px;
+    width: 30vw;
+}
+
+.pg-receitas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#card-c{
+    background-image: url(https://images.pexels.com/photos/1730630/pexels-photo-1730630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#card-b{
+    background-image: url(https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#card-l{
+    background-image: url(https://images.pexels.com/photos/5864346/pexels-photo-5864346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#card-f{
+    background-image: url(https://images.pexels.com/photos/24182617/pexels-photo-24182617/free-photo-of-desossados-e-asas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    
+    background-position: bottom;
+}
+
+#card-t{
+    background-image: url(https://images.pexels.com/photos/2374946/pexels-photo-2374946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#card-i{
+    background-image: url(https://images.pexels.com/photos/3622477/pexels-photo-3622477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#card-h{
+    background-image: url(https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+}
+
+#card-br{
+    background-image: url(https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+    background-position: top;
+}
+
+#card-p{
+    background-image: url(https://images.pexels.com/photos/574111/pexels-photo-574111.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+/*estilização pagina de resultados*/
+#h1-resultados{
+    color: #87963e;
+}
+.result{
+    margin: 20px;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #5c6918;
+}
+
+.imgResult{
+    height: 117px;
+    width: 117px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.recipe-link{
+    text-decoration: none;
+    font-size: 40px;
+    font-variant: small-caps;
+    color: #87963e;
+}
+
+.recipe-link:hover{
+    color: #5c6918;
+}
